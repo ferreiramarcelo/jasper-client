@@ -3,8 +3,8 @@ APScheduler==3.0.1
 argparse==1.2.2
 mock==1.0.1
 pytz==2014.10
-PyYAML==3.11
-requests==2.5.0
+PyYAML==4.2b1
+requests==2.31.0
 
 # Pocketsphinx STT engine
 cmuclmtk==0.1.5
@@ -24,3 +24,4 @@ python-dateutil==2.3
 
 # MPDControl module
 python-mpd==0.3.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
